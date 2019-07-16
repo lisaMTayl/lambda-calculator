@@ -27,7 +27,7 @@ function App() {
     <div className="container">
       <Logo /> <Display />
       <div className="App">
-        { <numbers />} {<Specials />} {<Operators />}
+        { <Numbers />} {<Specials />} {<Operators />}
 
       </div>
     </div>
