@@ -1,0 +1,80 @@
+button {
+  border-radius: 50%;
+  margin: .5rem;
+  padding: .5rem 1rem;
+  font-size: 1.4rem;
+}
+
+.App {
+  width: 500px;
+  background-color: #af1e39;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.numBtn {
+  background-color: #094377;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: 2px solid #094377;
+  box-shadow: 0 2px 0 0 #21242b;
+  color: white;
+}
+
+.specBtn {
+  background-color: #0b5d9b;
+  padding: 1rem 1.5rem;
+  outline: none;
+  box-shadow: 0 2px 0 0 #21242b;
+  color: white;
+  border: 2px solid #0b5d9b;
+}
+
+.operBtn {
+  background-color: #007291;
+  padding: 1rem 1.5rem;
+  outline: 1px;
+  box-shadow: 0 2px 0 0 #21242b;
+  border: 2px solid #007291;
+  color: white;
+}
+
+.period {
+  background-color: #094377;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 0 0 #21242b;
+  color: white;
+}
+
+.zero {
+  background-color: #094377;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 0 0 #21242b;
+  color: white;
+}
+
+.multiply {
+  background-color: #094377;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 0 0 #21242b;
+  color: white;
+}
+
+.btnGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  .div1 { grid-area: 1 / 1 / 2 / 4; }
+  .div2 { grid-area: 1 / 4 / 6 / 5; }
+  .div3 { grid-area: 2 / 1 / 6 / 4; }
+}
